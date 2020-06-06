@@ -1,1 +1,21 @@
-
+main{
+    margin: 20px 10px;
+}
+body{
+    background-color:#eee;
+}
+img{
+    display: block;
+    width: 300px;
+    height: auto;
+}
+@media (min-width: 400px){
+    img{
+        margin: auto;
+    }
+}
+@media (max-width: 400px){
+    img{
+        float: left;
+    }
+}
